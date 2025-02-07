@@ -295,8 +295,62 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1376097597360744, guid: 262eaddaff7293244b3586d03f775864, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470686085}
+    - targetCorrespondingSourceObject: {fileID: 1376097597360744, guid: 262eaddaff7293244b3586d03f775864, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470686084}
   m_SourcePrefab: {fileID: 100100000, guid: 262eaddaff7293244b3586d03f775864, type: 3}
+--- !u!1 &470686083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1376097597360744, guid: 262eaddaff7293244b3586d03f775864, type: 3}
+  m_PrefabInstance: {fileID: 311408857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &470686084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470686083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aa512a68815b7a46a236a0ddce9661d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+--- !u!114 &470686085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470686083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &680093091
 GameObject:
   m_ObjectHideFlags: 0
